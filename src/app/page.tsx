@@ -127,7 +127,7 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Meet Our Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                { name: "Alpha Chong Shu Siang", role:"Hackathon winner that hack in web3; software engineer @ ALPHV Technologies SDN BHD, penultimate year software engineering student @ University Malaysia Pahang Al-Sultan Abdullah", image: "/Alpha.png", ImageAdd: "/AlphaDetail.png" },
+                { name: "Alpha Chong Shu Siang", role:"Hackathon Winner That Hack in Web3; Software Engineer @ ALPHV Technologies SDN BHD, Penultimate Year Software Engineering Student @ University Malaysia Pahang Al-Sultan Abdullah", image: "/Alpha.png", ImageAdd: "/AlphaDetail.png" },
                 { name: "Koo Ming Zhe", role: "First Runner-Up i-UM Discrupt Hackathon, Full Stack Developer @ Operion Software Sdn. Bhd. Penultimate Year Softwate Engineering Student @ University Malaysia Pahang Al-Sultan Abdullah", image: "/koo.jpg", ImageAdd: "/kooDetails.jpg" },
                 { name: "Gan Jun Wei", role: "Tech Enthusiast. Jack of All Trades, Master of None. Penultimate Year Software Engineering Student @ University Malaysia Pahang Al-Sultan Abdullah", image: "/gan.jpg", ImageAdd: "/ganDetails.jpg" },
               ].map((member, index) => (
@@ -160,7 +160,7 @@ export default function LandingPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-4">View Our Demo Video</h2>
             <div className="flex justify-center space-x-4">
-              <a href="https://www.loom.com/share/244b7ce865f648c9b93a9ca8dc977cb8?sid=04d64750-98d8-440f-842e-b3ece275ee49" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
+              <a href="https://youtu.be/AV8Yd4xgx_4" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Watch Demo Video
               </a>
             </div>
