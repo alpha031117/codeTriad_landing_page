@@ -53,10 +53,10 @@ export default function LandingPage() {
                 </div>
                 <div className="flex justify-center">
                   <Image
-                    src="/prob1.png"
+                    src="/prob1.jpg"
                     alt="Food Waste Problem"
-                    width={400}
-                    height={300}
+                    width={300}
+                    height={200}
                     className="rounded-lg shadow-lg"
                   />
                 </div>
@@ -78,15 +78,15 @@ export default function LandingPage() {
                     ))}
                   </ul>
                 </div>
-                {/* <div className="flex justify-center">
+                <div className="flex justify-center">
                   <Image
-                    src="/prob1.png"
-                    alt="Inefficient Complaint Management"
-                    width={400}
-                    height={300}
+                    src="/prob2.png"
+                    alt="Vendor Loss Financially"
+                    width={300}
+                    height={200}
                     className="rounded-lg shadow-lg"
                   />
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -97,11 +97,11 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Key Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                { icon: <Mail className="h-8 w-8 text-orange-600" />, title: "⭐AI-Powered Intelligent Quality Assessment", description: "Leverage advanced AI algorithms to ensure the highest quality standards in your processes. Our intelligent assessment tool analyzes data in real time, providing actionable insights for continuous improvement.", img: "/keySol1.png" },
-                { icon: <BarChart className="h-8 w-8 text-orange-600" />, title: "⭐AI-Powered Predictive Analytics for Demand", description: "Utilize powerful predictive analytics to forecast demand trends with accuracy. Our AI-driven solution empowers businesses to make informed decisions, optimize inventory, and enhance operational efficiency.", img: "/keySol2.png" },
-                { icon: <MessageSquare className="h-8 w-8 text-orange-600" />, title: "User Friendly UI/UX design and experience", description: "Our approach prioritizes simplicity and accessibility, ensuring that every interaction is seamless and enjoyable, ultimately enhancing user satisfaction and retention.", img: "/sol1.png" },
-                { icon: <BarChart className="h-8 w-8 text-orange-600" />, title: "Public Engagement Options", description: "Foster community support through innovative engagement solutions. Our platform offers self-purchase and donation options, making it easy for individuals to contribute and participate in meaningful initiatives.", img: "/sol2.png" },
-                { icon: <Users className="h-8 w-8 text-orange-600" />, title: "Surplus Food Management", description: "At the end of each day, vendors review their inventory to identify which perishable items are unsold and available for public engagement. Vendors will post them into our app.", img: "/sol3.png" }
+                { icon: <Mail className="h-8 w-8 text-orange-600" />, title: "⭐AI-Powered Intelligent Quality Assessment", description: "Leverage advanced AI algorithms to ensure the highest quality standards in your processes. Our intelligent assessment tool analyzes data in real time, providing actionable insights for continuous improvement.", img: "/sol1.jpg" },
+                { icon: <BarChart className="h-8 w-8 text-orange-600" />, title: "⭐AI-Powered Predictive Analytics for Demand", description: "Utilize powerful predictive analytics to forecast demand trends with accuracy. Our AI-driven solution empowers businesses to make informed decisions, optimize inventory, and enhance operational efficiency.", img: "/sol2.jpg" },
+                { icon: <MessageSquare className="h-8 w-8 text-orange-600" />, title: "User Friendly UI/UX design and experience", description: "Our approach prioritizes simplicity and accessibility, ensuring that every interaction is seamless and enjoyable, ultimately enhancing user satisfaction and retention.", img: "/sol3.jpg" },
+                { icon: <BarChart className="h-8 w-8 text-orange-600" />, title: "Public Engagement Options", description: "Foster community support through innovative engagement solutions. Our platform offers self-purchase and donation options, making it easy for individuals to contribute and participate in meaningful initiatives.", img: "/sol4.jpg" },
+                { icon: <Users className="h-8 w-8 text-orange-600" />, title: "Surplus Food Management", description: "At the end of each day, vendors review their inventory to identify which perishable items are unsold and available for public engagement. Vendors will post them into our app.", img: "/sol5.jpg" }
               ].map((feature, index) => (
                 <Card key={index} className="text-center">
                   <CardContent className="pt-6">
@@ -160,7 +160,7 @@ export default function LandingPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-4">View Our Demo Video</h2>
             <div className="flex justify-center space-x-4">
-              <a href="https://youtu.be/AV8Yd4xgx_4" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
+              <a href="https://www.youtube.com/watch?v=4QLLlDD2PNk" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Watch Demo Video
               </a>
             </div>
