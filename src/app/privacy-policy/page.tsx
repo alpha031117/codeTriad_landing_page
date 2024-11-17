@@ -74,11 +74,11 @@ export default function LandingPage() {
                 <h3 className="text-2xl font-semibold">6. Data Retention</h3>
                 <p>We retain your personal information as long as necessary to provide our services and comply with legal obligations. You may request to delete your account at any time, and we will remove your personal data accordingly.</p>
 
-                <h3 className="text-2xl font-semibold">7. Children's Privacy</h3>
+                <h3 className="text-2xl font-semibold">7. Children Privacy</h3>
                 <p>Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have inadvertently collected data from a child under 13, we will take steps to delete it.</p>
 
                 <h3 className="text-2xl font-semibold">8. Changes to This Privacy Policy</h3>
-                <p>We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated "Effective Date." Your continued use of the App after changes have been made indicates your acceptance of the new policy.</p>
+                <p>We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated effective date. Your continued use of the App after changes have been made indicates your acceptance of the new policy.</p>
 
                 <h3 className="text-2xl font-semibold">9. Contact Us</h3>
                 <p>If you have any questions or concerns about this Privacy Policy or the way we handle your data, please contact us via email  <strong>alphachongs@gmail.com</strong>
