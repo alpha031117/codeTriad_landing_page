@@ -1,7 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { MessageSquare, BarChart, Users, Mail, CheckCircle } from "lucide-react"
-import Image from "next/image"
-
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen">
