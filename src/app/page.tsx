@@ -37,7 +37,7 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">The SDG That We Solve</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 {/* SDG Problem */}
-                  <div className="flex gap-12 justify-center">
+                  <div className="flex gap-8 justify-center">
                     <Image
                       src="/SDG2.png"
                       alt="SDG2"
