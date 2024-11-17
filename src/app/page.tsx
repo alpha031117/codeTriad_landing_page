@@ -13,6 +13,7 @@ export default function LandingPage() {
           </div>
           <nav>
             <ul className="flex space-x-4">
+              <li><a href="#SDG" className="text-gray-600 hover:text-orange-600">SDG</a></li>
               <li><a href="#problem" className="text-gray-600 hover:text-orange-600">Problem</a></li>
               <li><a href="#features" className="text-gray-600 hover:text-orange-600">Features</a></li>
               <li><a href="#team" className="text-gray-600 hover:text-orange-600">Team</a></li>
@@ -31,9 +32,35 @@ export default function LandingPage() {
           </div>
         </section>
 
+        <section id="SDG" className="py-20">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">The SDG That We Solve</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                {/* SDG Problem */}
+                  <div className="flex gap-12 justify-center">
+                    <Image
+                      src="/SDG2.png"
+                      alt="SDG2"
+                      width={150}
+                      height={100}
+                      className="rounded-lg shadow-lg"
+                    />
+                    <Image
+                      src="/SDG12.png"
+                      alt="SDG12"
+                      width={150}
+                      height={100}
+                      className="rounded-lg shadow-lg"
+                    />
+                  </div>
+              </div>
+          </div>
+        </section>
+
         <section id="problem" className="py-20">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">The Problem We Solve</h2>
+
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">The Problem That We Solve</h2>
             <div className="grid grid-cols-1 gap-y-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
