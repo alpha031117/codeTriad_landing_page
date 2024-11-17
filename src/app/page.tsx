@@ -13,10 +13,10 @@ export default function LandingPage() {
           </div>
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="#SDG" className="text-gray-600 hover:text-orange-600">SDG</a></li>
               <li><a href="#problem" className="text-gray-600 hover:text-orange-600">Problem</a></li>
               <li><a href="#features" className="text-gray-600 hover:text-orange-600">Features</a></li>
               <li><a href="#team" className="text-gray-600 hover:text-orange-600">Team</a></li>
+              <li><a href="#SDG" className="text-gray-600 hover:text-orange-600">Privacy Policy</a></li>
             </ul>
           </nav>
         </div>
