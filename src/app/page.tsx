@@ -187,7 +187,7 @@ export default function LandingPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-4">View Our Demo Video</h2>
             <div className="flex justify-center space-x-4">
-              <a href="https://www.youtube.com/watch?v=4QLLlDD2PNk" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
+              <a href="https://youtu.be/KQul_Uuc-A0" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Watch Demo Video
               </a>
               <a 
