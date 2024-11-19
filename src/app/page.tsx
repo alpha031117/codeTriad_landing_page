@@ -190,7 +190,10 @@ export default function LandingPage() {
               <a href="https://www.youtube.com/watch?v=4QLLlDD2PNk" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Watch Demo Video
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
+              <a 
+                href="/apk/Savor_and_Share.apk" 
+                download 
+                className="bg-white text-orange-600 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Download Our APK
               </a>
             </div>
